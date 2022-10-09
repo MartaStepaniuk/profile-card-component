@@ -1,0 +1,203 @@
+/*Обнулення*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+body {
+    background: url(images/bg-pattern-top.svg) right 53vw bottom 32vh no-repeat, url(images/bg-pattern-bottom.svg) top 52vh left 44vw no-repeat hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+}
+
+#mainContent {
+    border-radius: 17px;
+    box-shadow: 12px 14px 53px #128091;
+}
+
+body,
+#mainInfo {
+    justify-content: center;
+}
+
+body,
+#mainContent,
+#mainInfo,
+#additionalInfo {
+    display: flex;
+    align-items: center;
+}
+
+body,
+#mainContent,
+#mainInfo {
+    flex-direction: column;
+}
+
+#imageVictor {
+    width: 350px;
+    height: 140px;
+    background: url("images/bg-pattern-card.svg") no-repeat;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+img {
+    border: 5px solid white;
+    border-radius: 50%;
+    transform: translate(122px, 87px);
+}
+
+#mainInfo {
+    background: white;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+
+#mainInfo,
+#additionalInfo,
+#VictorCrest {
+    width: 100%;
+}
+
+#VictorCrest {
+    padding: 78px 0 25px;
+}
+
+p {
+    margin-bottom: 11px;
+}
+
+#additionalInfo {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 27px 0;
+    border-top: 1px solid #E7E7E7;
+}
+
+#additionalInfo div,
+#VictorCrest {
+    text-align: center;
+}
+
+.VictorInfo {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+#keyWordLondon {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#keyWordLondon,
+.keyWords {
+    font-weight: 400;
+}
+
+#keyWordLondon,
+.keyWords,
+p {
+    color: hsl(227, 10%, 46%);
+}
+
+.keyWords {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.attribution {
+    font-size: 11px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
