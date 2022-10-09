@@ -26,7 +26,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Live site
 
-- Live site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live site URL: [https://martastepaniuk.github.io/profile-card-component/index.html](https://martastepaniuk.github.io/profile-card-component/index.html)
 
 ## My process
 
