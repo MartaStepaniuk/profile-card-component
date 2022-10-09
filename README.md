@@ -23,6 +23,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshots
 
 ![](screenshots/Desktop_version.jpg)
+![](screenshots/Mobile_version.jpg)
 
 ### Live site
 
